@@ -1,16 +1,16 @@
-import { MetadataRoute } from 'next';
+import type { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://bunx.dev';
+  const baseUrl = 'https://bunx.io'
 
   return {
     rules: [
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/admin/'],
-      },
+        disallow: ['/api/', '/admin/']
+      }
     ],
-    sitemap: `${baseUrl}/sitemap.xml`,
-  };
+    sitemap: `${baseUrl}/sitemap.xml`
+  }
 }

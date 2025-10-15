@@ -5,4 +5,4 @@ Disallow: /api/
 Disallow: /admin/
 
 # Sitemap
-Sitemap: https://bunx.dev/sitemap.xml
+Sitemap: https://bunx.io/sitemap.xml
